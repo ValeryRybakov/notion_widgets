@@ -40,7 +40,7 @@ button:focus {
     width: 233px; /* Adjusted from 350px */
     border-radius: 15px; /* Adjusted */
     padding: 20px; /* Adjusted from 30px */
-    box-shadow: none;/*box-shadow: 7px 7px sienna;  Adjusted */
+    box-shadow: 2px 2px lightgray;  /* Adjusted */
 }
 
 /* Display + Stop/Start/Reset Controls */
