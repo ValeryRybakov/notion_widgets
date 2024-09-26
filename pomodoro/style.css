@@ -3,116 +3,118 @@
 /* General */
 
 body {
-  font-family: 'Roboto Mono', monospace;
- // background-color: #c2e6e8;
+    font-family: 'Roboto Mono', monospace;
+    // background-color: #c2e6e8;
 }
 
 #root {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button,
 button:active {
-  background-color: rgb(234,178,156);
-  border: none;
-  width: 42px;
-  height: 40px;
-  border-radius: 100%;
-  text-align: center;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44);
+    background-color: rgb(234, 178, 156);
+    border: none;
+    width: 21px; /* Adjusted */
+    height: 20px; /* Adjusted */
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 0.1em 0.1em rgb(194, 91, 44); /* Adjusted */
+    -webkit-box-shadow: 0.1em 0.1em rgb(194, 91, 44);
+    -moz-box-shadow: 0.1em 0.1em rgb(194, 91, 44);
 }
 
 button:focus {
-  translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(194, 91, 44) inset;
+    translate: 0.1em 0.1em; /* Adjusted */
+    box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
+    -webkit-box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
+    -moz-box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(240, 240, 190); 
-  width: 350px;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 10px 10px sienna;
+    background-color: rgb(240, 240, 190);
+    width: 175px; /* Adjusted */
+    border-radius: 10px; /* Adjusted */
+    padding: 15px; /* Adjusted */
+    box-shadow: 5px 5px sienna; /* Adjusted */
 }
 
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-  font-size: 70px;
-  text-align: center;
-  background-color: rgb(150,180,175);
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+    font-size: 35px; /* Adjusted */
+    text-align: center;
+    background-color: rgb(150, 180, 175);
+    padding: 10px; /* Adjusted */
+    border-radius: 10px; /* Adjusted */
+    box-shadow: 1.5px 1.5px rgb(121, 145, 141) inset; /* Adjusted */
 }
 
 #display-controls {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+    margin: 5px 0; /* Adjusted */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #timer-label {
-  font-size: 25px;
-  text-align: center;
-  padding-top: 2px;
-  background-color: rgb(150,180,175);
-  border-radius: 10px;
-  height: 40px;
-  flex: 2;
-  box-shadow: 3px 3px rgb(121, 145, 141) inset;
+    font-size: 12.5px; /* Adjusted */
+    text-align: center;
+    padding-top: 1px; /* Adjusted */
+    background-color: rgb(150, 180, 175);
+    border-radius: 5px; /* Adjusted */
+    height: 20px; /* Adjusted */
+    flex: 2;
+    box-shadow: 1.5px 1.5px rgb(121, 145, 141) inset; /* Adjusted */
 }
 
 #timer-ssr {
-  flex: 1;
-  margin-left: 30px;
-  display: flex;
-  justify-content: space-between;
-  flex-start: end;
+    flex: 1;
+    margin-left: 15px; /* Adjusted */
+    display: flex;
+    justify-content: space-between;
+    flex-start: end;
 }
 
 /* Timer Length Controls */
 
 .length-container {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
+    margin-top: 10px; /* Adjusted */
+    display: flex;
+    flex-direction: row;
 }
 
 .inc-dec-btn-container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 140px;
-  height:60px;
-}
-
-.break-container, 
-.session-container {
-  text-align: center;
-/*   display: inline-block; */
-  border: 2px solid rgb(234,178,156);
-  padding: 10px;
-  border-radius: 10px;
-  width: 48%;
-}
-
-.timer-length {
-  font-size: 2em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70px; /* Adjusted */
+    height: 30px; /* Adjusted */
 }
 
 .break-container,
+.session-container {
+    text-align: center;
+    border: 2px solid rgb(234, 178, 156);
+    padding: 5px; /* Adjusted */
+    border-radius: 5px; /* Adjusted */
+    width: 48%;
+}
+
+.timer-length {
+    font-size: 1em; /* Adjusted */
+}
+
+.break-container,
+.inc-arrow {
+    margin-right: 6px; /* Adjusted */
+}
 .inc-arrow {
   margin-right: 12px;
 }
