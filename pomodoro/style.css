@@ -9,7 +9,7 @@ body {
 
 #root {
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
 }
 
@@ -17,45 +17,45 @@ button,
 button:active {
     background-color: rgb(234, 178, 156);
     border: none;
-    width: 21px; /* Adjusted */
-    height: 20px; /* Adjusted */
+    width: 28px; /* Adjusted from 42px */
+    height: 27px; /* Adjusted from 40px */
     border-radius: 100%;
     text-align: center;
-    box-shadow: 0.1em 0.1em rgb(194, 91, 44); /* Adjusted */
-    -webkit-box-shadow: 0.1em 0.1em rgb(194, 91, 44);
-    -moz-box-shadow: 0.1em 0.1em rgb(194, 91, 44);
+    box-shadow: 0.15em 0.15em rgb(194, 91, 44); /* Adjusted */
+    -webkit-box-shadow: 0.15em 0.15em rgb(194, 91, 44);
+    -moz-box-shadow: 0.15em 0.15em rgb(194, 91, 44);
 }
 
 button:focus {
-    translate: 0.1em 0.1em; /* Adjusted */
-    box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
-    -webkit-box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
-    -moz-box-shadow: 0.1em 0.1em rgb(194, 91, 44) inset;
+    translate: 0.15em 0.15em; /* Adjusted */
+    box-shadow: 0.15em 0.15em rgb(194, 91, 44) inset;
+    -webkit-box-shadow: 0.15em 0.15em rgb(194, 91, 44) inset;
+    -moz-box-shadow: 0.15em 0.15em rgb(194, 91, 44) inset;
 }
 
 /* Clock Body */
 
 .clock-container {
     background-color: rgb(240, 240, 190);
-    width: 175px; /* Adjusted */
-    border-radius: 10px; /* Adjusted */
-    padding: 15px; /* Adjusted */
-    box-shadow: 5px 5px sienna; /* Adjusted */
+    width: 233px; /* Adjusted from 350px */
+    border-radius: 15px; /* Adjusted */
+    padding: 20px; /* Adjusted from 30px */
+    box-shadow: 7px 7px sienna; /* Adjusted */
 }
 
 /* Display + Stop/Start/Reset Controls */
 
 #time-left {
-    font-size: 35px; /* Adjusted */
+    font-size: 47px; /* Adjusted from 70px */
     text-align: center;
     background-color: rgb(150, 180, 175);
-    padding: 10px; /* Adjusted */
-    border-radius: 10px; /* Adjusted */
-    box-shadow: 1.5px 1.5px rgb(121, 145, 141) inset; /* Adjusted */
+    padding: 13px; /* Adjusted from 20px */
+    border-radius: 15px; /* Adjusted */
+    box-shadow: 2px 2px rgb(121, 145, 141) inset; /* Adjusted */
 }
 
 #display-controls {
-    margin: 5px 0; /* Adjusted */
+    margin: 7px 0; /* Adjusted from 10px */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,28 +63,27 @@ button:focus {
 }
 
 #timer-label {
-    font-size: 12.5px; /* Adjusted */
+    font-size: 17px; /* Adjusted from 25px */
     text-align: center;
     padding-top: 1px; /* Adjusted */
     background-color: rgb(150, 180, 175);
-    border-radius: 5px; /* Adjusted */
-    height: 20px; /* Adjusted */
+    border-radius: 7px; /* Adjusted */
+    height: 27px; /* Adjusted from 40px */
     flex: 2;
-    box-shadow: 1.5px 1.5px rgb(121, 145, 141) inset; /* Adjusted */
+    box-shadow: 2px 2px rgb(121, 145, 141) inset; /* Adjusted */
 }
 
 #timer-ssr {
     flex: 1;
-    margin-left: 15px; /* Adjusted */
+    margin-left: 20px; /* Adjusted from 30px */
     display: flex;
     justify-content: space-between;
-    flex-start: end;
 }
 
 /* Timer Length Controls */
 
 .length-container {
-    margin-top: 10px; /* Adjusted */
+    margin-top: 13px; /* Adjusted from 20px */
     display: flex;
     flex-direction: row;
 }
@@ -94,27 +93,24 @@ button:focus {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 70px; /* Adjusted */
-    height: 30px; /* Adjusted */
+    width: 93px; /* Adjusted from 140px */
+    height: 40px; /* Adjusted from 60px */
 }
 
 .break-container,
 .session-container {
     text-align: center;
     border: 2px solid rgb(234, 178, 156);
-    padding: 5px; /* Adjusted */
-    border-radius: 5px; /* Adjusted */
+    padding: 7px; /* Adjusted from 10px */
+    border-radius: 7px; /* Adjusted */
     width: 48%;
 }
 
 .timer-length {
-    font-size: 1em; /* Adjusted */
+    font-size: 1.33em; /* Adjusted from 2em */
 }
 
 .break-container,
 .inc-arrow {
-    margin-right: 6px; /* Adjusted */
-}
-.inc-arrow {
-  margin-right: 12px;
+    margin-right: 8px; /* Adjusted from 12px */
 }
